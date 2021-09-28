@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 12px;
+    position: relative;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.menu-icon {
+    width: 24px;
+}
+
+.web-menu {
+    display: flex;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.logo {
+    display: flex;
+    font-size: 36px;
+    font-weight: 600;
+    color: cadetblue;
+}
+
+@media screen and (max-width :720px) {
+    .mobile-menu {
+        display: flex;
+    }
+    .web-menu {
+        display: none;
+    }
+    .logo {
+        font-size: 24;
+    }
+}

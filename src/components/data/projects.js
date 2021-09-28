@@ -13,8 +13,8 @@ export const ProjectData =[
         title : 'Protfolio website',
         description :'This Project is used for showcasing my skills on React.JS.',
         tags:["React.JS"],
-        demolink:"",
-        githublink:"",
+        demolink:"https://protfolio-naveen.herokuapp.com/",
+        githublink:"https://github.com/Naveen-Jagirdhar/react-protfolio",
         image:"",
     }
 ];
